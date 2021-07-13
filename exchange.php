@@ -9,7 +9,6 @@ require_once('veeam.class.php');
 if (empty($host) || empty($port) || empty($version)) {
     exit('Modify the configuration file first and configure the Veeam Backup for Microsoft Office 365 host, port and RESTful API version settings.');
 }
-$_SESSION['token'] = "Klaus";
 if (!preg_match('/v[4-5]/', $version)) {
 	exit('Invalid API version found. Modify the configuration file and configure the Veeam Backup for Microsoft Office 365 RESTful API version setting. Only version 4 and 5 are supported.');
 }
