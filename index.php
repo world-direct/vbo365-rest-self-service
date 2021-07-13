@@ -509,10 +509,6 @@ if (isset($_SESSION['token'])) {
 								<div class="form-check text-center">
 									<button type="submit" class="btn btn-login">Login</button>
 								</div>
-								<div class="divider-line"><span>OR</span></div>
-								<div class="form-check text-center">
-									<button type="button" class="btn btn-link btn-link-login" id="btn_mfa_login">Use MFA login</button>
-								</div>
 							</form>
 						</div>
 						<div class="form-group" id="mfa-login" style="display:none;">
